@@ -128,6 +128,7 @@ fn run_app(
                         app.status = match app.install_aliases() {
                             Ok(msg) => {
                                 app.should_quit = true;
+                                reset();
                                 msg
                             },
                             Err(err) => format!("Error: {err}"),
@@ -189,4 +190,11 @@ fn ui(frame: &mut Frame, app: &App) {
     frame.render_widget(call, chunks[1]);
     frame.render_widget(status, chunks[2]);
     frame.render_widget(help, chunks[3]);
+}
+
+fn reset() {
+    let _ = Command::new("bash")
+        .arg("-c")
+        .arg("reset")
+        .status();
 }
