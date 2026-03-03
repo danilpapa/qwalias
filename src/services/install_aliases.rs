@@ -1,6 +1,4 @@
 use std::io::Write;
-use std::env;
-use std::env::home_dir;
 use std::fmt::{Display, Formatter};
 use std::fs::{File, OpenOptions};
 use std::io::{BufRead, BufReader};
