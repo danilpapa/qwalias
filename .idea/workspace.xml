@@ -11,7 +11,14 @@
     </cargoProject>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7924b86-19f2-4412-8bc6-c6ee2b678920" name="Changes" comment="" />
+    <list default="true" id="d7924b86-19f2-4412-8bc6-c6ee2b678920" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/scripts/install_aliases.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scripts/mod.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/install_aliases.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -102,6 +109,7 @@
       <updated>1772442686660</updated>
       <workItem from="1772442687855" duration="2080000" />
       <workItem from="1772456793111" duration="6000" />
+      <workItem from="1772523044927" duration="679000" />
     </task>
     <servers />
   </component>
